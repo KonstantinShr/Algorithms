@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8fcee2-bb8e-4f21-a72d-47fffe3d76a2" name="Default Changelist" comment="Added bfs algorithm">
+    <list default="true" id="9e8fcee2-bb8e-4f21-a72d-47fffe3d76a2" name="Default Changelist" comment="Added dijkstra algorithm">
+      <change afterPath="$PROJECT_DIR$/Graphs/prima.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.dijkstra">
+  <component name="RunManager" selected="Python.prima">
     <configuration name="bfs" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,14 +149,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prima" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/prima.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.heapsort" />
       <item itemvalue="Python.dfs" />
       <item itemvalue="Python.bfs" />
       <item itemvalue="Python.dijkstra" />
+      <item itemvalue="Python.prima" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prima" />
         <item itemvalue="Python.dijkstra" />
       </list>
     </recent_temporary>
@@ -179,7 +204,8 @@
       <workItem from="1602643051414" duration="350000" />
       <workItem from="1602815386606" duration="49000" />
       <workItem from="1603354796278" duration="4784000" />
-      <workItem from="1603696211930" duration="5690000" />
+      <workItem from="1603696211930" duration="6218000" />
+      <workItem from="1603771455021" duration="4895000" />
     </task>
     <task id="LOCAL-00001" summary="Added sorting algorithms">
       <created>1602570102301</created>
@@ -230,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603359496483</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added dijkstra algorithm">
+      <created>1603702445895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603702445895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +291,8 @@
     <MESSAGE value="Added binary search" />
     <MESSAGE value="Added graphs algorithms" />
     <MESSAGE value="Added bfs algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bfs algorithm" />
+    <MESSAGE value="Added dijkstra algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dijkstra algorithm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603357399951">
@@ -269,38 +303,38 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="723" y="296" width="464" height="522" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603357389642" />
-    <state width="1872" height="264" key="GridCell.Tab.0.bottom" timestamp="1603702145561">
+    <state width="1872" height="264" key="GridCell.Tab.0.bottom" timestamp="1603775901858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603702145561" />
-    <state width="1872" height="264" key="GridCell.Tab.0.center" timestamp="1603702145561">
+    <state width="1872" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603775901858" />
+    <state width="1872" height="264" key="GridCell.Tab.0.center" timestamp="1603775901858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="264" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603702145561" />
-    <state width="1872" height="264" key="GridCell.Tab.0.left" timestamp="1603702145561">
+    <state width="1872" height="264" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603775901858" />
+    <state width="1872" height="264" key="GridCell.Tab.0.left" timestamp="1603775901857">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="264" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603702145561" />
-    <state width="1872" height="264" key="GridCell.Tab.0.right" timestamp="1603702145561">
+    <state width="1872" height="264" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603775901857" />
+    <state width="1872" height="264" key="GridCell.Tab.0.right" timestamp="1603775901858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="264" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603702145561" />
-    <state width="912" height="326" key="GridCell.Tab.1.bottom" timestamp="1603359583999">
+    <state width="1872" height="264" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603775901858" />
+    <state width="1872" height="326" key="GridCell.Tab.1.bottom" timestamp="1603774151557">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="912" height="326" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603359583999" />
-    <state width="912" height="326" key="GridCell.Tab.1.center" timestamp="1603359583998">
+    <state width="1872" height="326" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603774151557" />
+    <state width="1872" height="326" key="GridCell.Tab.1.center" timestamp="1603774151557">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="912" height="326" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603359583998" />
-    <state width="912" height="326" key="GridCell.Tab.1.left" timestamp="1603359583998">
+    <state width="1872" height="326" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603774151557" />
+    <state width="1872" height="326" key="GridCell.Tab.1.left" timestamp="1603774151557">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="912" height="326" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603359583998" />
-    <state width="912" height="326" key="GridCell.Tab.1.right" timestamp="1603359583998">
+    <state width="1872" height="326" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603774151557" />
+    <state width="1872" height="326" key="GridCell.Tab.1.right" timestamp="1603774151557">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="912" height="326" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603359583998" />
+    <state width="1872" height="326" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603774151557" />
     <state x="441" y="188" width="1037" height="737" key="SettingsEditor" timestamp="1602572545938">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -309,14 +343,15 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="794" y="462" width="322" height="189" key="VCS.ChangelistChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602570386354" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1603359507826">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1603702455443">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603359507826" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603702455443" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithms$heapsort.coverage" NAME="heapsort Coverage Results" MODIFIED="1603355337707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sortings" />
     <SUITE FILE_PATH="coverage/Algorithms$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1603702403062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
     <SUITE FILE_PATH="coverage/Algorithms$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1603359231134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
+    <SUITE FILE_PATH="coverage/Algorithms$prima.coverage" NAME="prima Coverage Results" MODIFIED="1603775618944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
   </component>
 </project>
